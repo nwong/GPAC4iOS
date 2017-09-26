@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Keemotion/GPAC4iOS.git", :tag => s.version.to_s }
 
   s.platform = :ios
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '8.2'
   s.requires_arc = true
   
   s.header_mappings_dir = 'Classes/include'
